@@ -349,7 +349,9 @@ body{
 
 li.source{
   display: inline-block;
-  border-left: 2px solid white;
+  border-left: 5px solid white;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 li.source{
