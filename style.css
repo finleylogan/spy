@@ -347,6 +347,15 @@ body{
   clear: both;
 }
 
+li.source{
+  display: inline-block;
+  border-left: 2px solid white;
+}
+
+li.source{
+  border-left: none;
+}
+
 footer{
 /*  background-color: put a color here*/
 }
