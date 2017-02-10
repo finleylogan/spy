@@ -1,6 +1,60 @@
 
 
 
+Mail
+COMPOSE
+Labels
+Inbox (705)
+Starred
+Sent Mail
+Drafts (13)
+More 
+Chat
+Finley Logan
+
+Search people...
+	21amiyam
+	21arielh
+	21baduongn
+	21emmak
+	21gemmac
+	21jonathonm
+	21joshuaf
+	21juliusf
+	21nicholasw
+	Greydon Chu
+ 
+  More 
+1 of 915  
+ 
+Print all In new window
+new css 
+Inbox
+x 
+
+Nicholas W. <nhwilsey@gmail.com>
+Attachments5:46 PM (14 hours ago)
+
+to me 
+here are the new css and html. The edits you made are up to date on here so you can just replace both files. They are in actual css and html formats now and no unzipping necessary :)
+2 Attachments 
+ 
+	
+Click here to Reply or Forward
+Using 0.1 GB
+Manage
+Program Policies
+Powered by Google
+Last account activity: 2 days ago
+Details
+Nicholas W.'s profile photo
+Nicholas W.
+nhwilsey@gmail.com
+
+Show details
+
+
+
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
@@ -290,18 +344,26 @@ h2#question{
   text-align:center;
 }
 
+p#about{
+  max-width: 950px;
+  text-align:center;
+  margin: 10px auto 15px auto;
+  font-size: 1.2em;
+}
+
 li.spy{
   box-sizing: border-box;
   list-style: none;
   width: 30%;
   margin: 0 2.5% 15px 2.5%;
-  padding: 0;
+  margin-bottom: 30px;
   border-radius: 20px;
   display: inline-block;
   float:left;
   overflow: auto;
   background-color: #ebebeb;
   color: #888;
+  box-shadow: 05px 15px 20px -12px rgba(0,0,0, .8);
 }
 
 li.spy p{
@@ -341,6 +403,8 @@ body{
  background-color: white;
 }
 
+/* clearfix */
+
 .group:after {
   content: "";
   display: table;
@@ -349,13 +413,37 @@ body{
 
 li.source{
   display: inline-block;
-  border-left: 5px solid white;
+  border-left: 1px solid white;
   padding-right: 10px;
   padding-left: 10px;
+  margin-top: -5px;
+  max-height: inherit;
 }
 
-li.source{
+li.source p{
+  margin: 0;
+}
+
+
+li.source.left{
   border-left: none;
+}
+
+ul#sources{
+  text-align:center;
+  max-height: 30px;
+  padding: 0;
+}
+
+h2.footer{
+  color: white;
+  text-align:center;
+  margin: 0 auto 0 auto;
+  padding-bottom: 8px;
+}
+
+footer.inner{
+  padding-top: 8px;
 }
 
 footer{
